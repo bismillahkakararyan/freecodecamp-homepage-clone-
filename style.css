@@ -3,9 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  overflow-x: hidden;
-}
 h1 {
   font-size: 49px;
 }
@@ -14,6 +11,7 @@ h5 {
 }
 body {
   background-color: #f5f6f7;
+  overflow-x: hidden;
 }
 header {
   background-color: #0a0a23;
