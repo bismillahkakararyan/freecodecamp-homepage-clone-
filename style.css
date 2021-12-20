@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 49px;
+}
+h5 {
+  font-size: 25px;
+}
+body {
+  background-color: #f5f6f7;
+}
+header {
+  background-color: #0a0a23;
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input {
+  padding: 4px;
+  background: rgba(52, 175, 223, 0);
+  border: none;
+  width: 239px;
+  outline: none;
+  font-size: 1rem;
+  position: relative;
+  left: 5px;
+}
+.nav-wrapper {
+  background: #3b3b4f;
+  display: flex;
+  align-items: center;
+  width: 25rem;
+  position: relative;
+  top: 0;
+  left: 20px;
+}
+.icon {
+  position: relative;
+  left: 5px;
+  font-size: 15px;
+  color: #d0d0d5;
+}
+.logo {
+  position: absolute;
+  top: -10px;
+  left: 40%;
+  transform: scale(0.6);
+}
+.topright-btns {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 10px;
+  right: 0;
+}
+.menu-btn {
+  position: relative;
+  right: 30px;
+  padding: 5px;
+  width: 80px;
+}
+.avatar {
+  position: relative;
+  right: 15px;
+}
+.headings {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 300px;
+  top: 100px;
+}
+.logos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  position: relative;
+  top: 100px;
+  left: 70px;
+  transform: scale(0.7);
+}
+#google-logo {
+  position: relative;
+  top: 21px;
+}
+#microsoft-logo {
+  position: relative;
+  top: 16px;
+}
+#spotify-logo {
+  position: relative;
+  top: 13px;
+}
+#amazon-logo {
+  position: relative;
+  top: 6px;
+}
+.calltoaction-btn {
+  background: rgb(243, 198, 83);
+  border: 3px solid rgb(255, 183, 0);
+  width: 23rem;
+  display: block;
+  margin: 10em auto;
+  padding: 1em;
+  font-size: 16px;
+  font-weight: 600;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+  z-index: 1;
+}
+#main-img {
+  display: block;
+  margin: 1rem auto;
+}
+#pic-text {
+  display: block;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
+.sect-testimonial {
+  margin-top: 10rem;
+}
+.testimonial1 {
+  width: 1100px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.096) -1px -1px 21px;
+  margin: 5rem auto;
+}
+#testimonial1pic {
+  margin-left: -1rem;
+}
+.testimonial-text {
+  transform: translateX(-9rem) translateY(5rem);
+}
+#testimonial-sect-para {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin: 2rem auto;
+  text-align: center;
+  word-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* redefined testimonial sect */
+.testimonial1-redefiend {
+  width: 350px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.199) -1px -1px 21px;
+  margin: 5rem auto;
+}
+#testimonial1pic-redefiend {
+  margin-left: -12px;
+}
+.testimonial-text-redefiend {
+  margin-top: 1rem;
+}
+#testimonial-sect-para-redefiend {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin: 2rem auto;
+  text-align: center;
+  word-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* redefined testimonial sect */
+
+.sect-courses {
+  display: flex;
+  flex-direction: column;
+}
+.sect-courses-btns {
+  width: 50em;
+  padding: 1em;
+  background-color: #d0d0d5;
+  margin: 1rem auto;
+  font-size: 1rem;
+  border: 3px solid #1b1b32;
+}
+.sect-courses-btns:hover {
+  background: #1b1b32;
+  color: #d0d0d5;
+}
+#float1 {
+  float: left;
+}
+#float2 {
+  float: right;
+}
+.calltoaction-btn-2 {
+  background: rgb(243, 198, 83);
+  border: 3px solid rgb(255, 183, 0);
+  width: 390px;
+  display: block;
+  margin: 1rem auto;
+  padding: 10px;
+  font-weight: 600;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+}
+footer {
+  background-color: #dfdfe2;
+  display: flex;
+  margin-top: 11rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* responsiveness */
+@media screen and (max-width: 980px) {
+  .nav-wrapper {
+    display: none;
+  }
+  .logo {
+    position: relative;
+    left: -60px;
+    top: 3px;
+  }
+  .headings {
+    position: relative;
+    left: 9px;
+    font-size: 1px;
+  }
+  .logos {
+    position: relative;
+    left: 17px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .sect-testimonial-redefiend {
+    display: none;
+  }
+}
+@media screen and (max-width: 990px) {
+  .sect-testimonial {
+    display: none;
+  }
+}
